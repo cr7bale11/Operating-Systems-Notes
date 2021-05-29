@@ -29,7 +29,7 @@ ________________________________________________________________________________
   - The above things are basically instructions and these will be loaded into the memory
     - Eager Loading (Loading all the instructions)
     - Lazy Loading (Only Loading them when needed) -> Achieved through Paging and others. Modern OS do Lazy Loading
-  - The process also loads some data into Registers (that are pretty close to cpu and faster than l1 cache). These include program counter (Which instruction is being run right now), stack pointer (keeps track of the call stack)
+  - The OS also loads some data of the process into Registers (that are pretty close to cpu and faster than l1 cache). These include program counter (Which instruction is being run right now), stack pointer (keeps track of the call stack)
   - Parts of the memory assigned to a process:
     - Runtime Stack <- Stores Local Variables, Function Params and returning addresses (It's like a call stack)
     - Heap <- Dynamic Memory Allocations during Program execution (For Linked Lists etc) Uses malloc()/free() apis to manipulate the memory in heap
