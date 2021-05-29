@@ -2,7 +2,7 @@
 
 - Basics:
 
-  - In the modern CPUs, what's the meaning of 4 cores and 8 threads ?? Read https://www.daniloaz.com/en/differences-between-physical-cpu-vs-logical-cpu-vs-core-vs-thread-vs-socket/  
+  - In the modern CPUs, what's the meaning of cores and threads ?? Read https://www.daniloaz.com/en/differences-between-physical-cpu-vs-logical-cpu-vs-core-vs-thread-vs-socket/  
   - CPU doesn't do IO. CPU runs another process while the process that started IO works on IO operations till the IO event is done
 
 --------------------------------------------------------------------------------
